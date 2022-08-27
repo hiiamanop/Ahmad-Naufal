@@ -8,13 +8,17 @@
 </head>
 <body>
     <h1> Latihan PHP dasar </h1>
-    <a href="1text.php">text</a>
+    <a href="1text.php">Text</a>
     <br>
-    <a href="2variable.php">variable</a>
+    <a href="2variable.php">Variable</a>
     <br>
-    <a href="3operator.php">operator</a>
+    <a href="3operator.php">Operator</a>
     <br>
-    <a href="4ifelse.php">if else</a>
+    <a href="4ifelse.php">If Else</a>
+    <br>
+    <a href="5loopig.php">Looping</a>
+    <br>
+    <a href="6array.php">Array</a>
     <br>
     
 </body>
