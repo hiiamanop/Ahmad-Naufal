@@ -21,6 +21,6 @@
         $luas = $panjang * $lebar;
 
         // kembalikan nilainya
-        return $luas;
+        return $luas;   
     }
 ?>
