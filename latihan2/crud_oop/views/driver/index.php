@@ -10,12 +10,14 @@
 <h1>Halaman driver</h1>
 <br>
 <div class="row">
-    <table>
+    <a href="index.php?page=driver&action=add" class="btn btn-primary">tambah</a>
+    <table class="table table-bordered">
         <tr>
             <th>No.</th>
             <th>Nama</th>
             <th>Kota</th>
             <th>Pendapatan</th>
+            <th>Jumlah Order</th>
         </tr>
         <?php
             $no = 1;
@@ -26,6 +28,11 @@
             <td><?= $dt['nama_Driver']?></td>
             <td><?= $dt['kota_Driver']?></td>
             <td><?= number_format($dt['pendapatan_Driver'])?></td>
+            <td><?= number_format($dt['jumlah_Order'])?></td>
+            <td>
+                <a href="index.php?page=driver&action=edit&id_Driver=<?= $dt['id_Driver']?>" class="btn btn-success">edit</a>
+                <a href="index.php?page=driver&action=delete&id_Driver=<?= $dt['id_Driver']?>" class="btn btn-danger">hapus</a>
+            </td>
         </tr>
         <?php
             endforeach;
